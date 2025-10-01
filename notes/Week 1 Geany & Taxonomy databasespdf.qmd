@@ -3,7 +3,7 @@ title: "Week 1: Geany & Taxonomy Databases"
 date: 2025-09-02
 description: "Taxonomy Databases"
 categories: ["Not much"]
-image: images/week1.jpg
+image: "./images/week1.jpg"
 page-layout: full
 toc: false
 ---

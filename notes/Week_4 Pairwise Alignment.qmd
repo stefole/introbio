@@ -3,7 +3,7 @@ title: "Week 4: Pairwise Alignment"
 date: 2025-09-23
 description: "Pairwise Alignment"
 categories: ["Pairwise Alignment"]
-image: images/week4.png
+image: "./images/week4.png"
 page-layout: full
 toc: false
 ---
