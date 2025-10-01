@@ -1,0 +1,10 @@
+{
+  "listingMap": {
+    "notebooks.qmd": [
+      "notes/*.qmd"
+    ],
+    "index.qmd": [
+      "notes/*.qmd"
+    ]
+  }
+}

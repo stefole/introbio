@@ -1,0 +1,41 @@
+{
+  "index.qmd": {
+    "index.html": "71ae9448"
+  },
+  "notebooks.qmd": {
+    "notebooks.html": "3b8f8d49"
+  },
+  "about.qmd": {
+    "about.html": "0c9bfe1a"
+  },
+  "nbs/week1-igraph.qmd": {
+    "week1-igraph.html": "03391b46"
+  },
+  "nbs/week2-louvian.qmd": {
+    "week2-louvian.html": "92fedfb3"
+  },
+  "notes/rna-maturation.qmd": {
+    "rna-maturation.html": "59ea27d9"
+  },
+  "notes/Week2_Prokaryotic_Protein_Synthesis.qmd": {
+    "Week2_Prokaryotic_Protein_Synthesis.html": "1be0f11c"
+  },
+  "introbio/index.qmd": {
+    "index.html": "484ef963"
+  },
+  "introbio/about.qmd": {
+    "about.html": "77257c97"
+  },
+  "notes/Week_4 Pairwise Alignment.qmd": {
+    "Week_4 Pairwise Alignment.html": "5a27f85e"
+  },
+  "notes/Week 1 Geany & Taxonomy databasespdf.qmd": {
+    "Week 1 Geany & Taxonomy databasespdf.html": "8377a19c"
+  },
+  "notes/Week 2 GenBank.qmd": {
+    "Week 2 GenBank.html": "2255aac0"
+  },
+  "notes/Week_3 Virtual Ribosome & The protein databases.qmd": {
+    "Week_3 Virtual Ribosome & The protein databases.html": "0b803a14"
+  }
+}

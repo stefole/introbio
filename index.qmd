@@ -1,0 +1,135 @@
+---
+title: "Introduction to Bioinformatics"
+page-layout: full
+
+listing:
+  id: cards
+  contents: "notes/*.qmd"
+  type: grid
+  sort: "date desc"
+  fields: [image, title, date, categories, description]
+  grid-columns: 2
+  page-size: 60
+  categories: true
+  filter-ui: true
+---
+
+::: {.two-col}
+
+::: {.left}
+
+::: {.panel}
+## Welcome
+This is my personal site for the course *Introduction to Bioinformatics 22111*.  
+I’m collecting my notes and exercises here as PDFs. They’re not meant to be perfect—just a record of my learning and a way to consolidate the material. Although this course is quite basic.
+:::
+
+::: {.panel .syllabus}
+## Syllabus (overview)
+
+**Biological databases**  
+: Taxonomy, GenBank, UniProt; navigating sequence repositories; converting between nucleotide and protein data.
+
+**DNA → protein translation**  
+: Codon usage; translating DNA into protein; annotation basics.
+
+**Pairwise alignment & BLAST**  
+: Global vs. local alignment; scoring matrices; BLAST search strategies; interpreting results.
+
+**Protein structures**  
+: Protein Data Bank (PDB); molecular visualization with PyMOL; analyzing 3D protein architecture.
+
+**Sequence logos & information content**  
+: Representing conservation graphically; entropy and information theory in sequence analysis.
+
+**Case study: malaria vaccine**  
+: Applying bioinformatics to immunology and vaccine design.
+
+**Weight matrices & prediction methods**  
+: Position weight matrices (PWMs); motif detection; iterative searches with PSI-BLAST.
+
+**Multiple sequence alignment & phylogeny**  
+: Algorithms for aligning many sequences; evolutionary models; constructing and interpreting phylogenetic trees.
+:::
+
+:::
+
+::: {.right}
+
+::: {.notebooks-card}
+## All PDFs
+
+:::{#cards}
+:::
+:::
+
+:::
+:::
+
+<hr class="site-divider">
+<p class="site-footer">
+  Quarto is pretty nice!
+</p>
+
+<style>
+:root { --acc: #34d0c6; }
+
+/* ================= Two-column layout ================= */
+.two-col { display:grid; grid-template-columns:7fr 5fr; gap:1rem 1.5rem; align-items:start; }
+.left,.right { min-width:0; }
+.right { position:sticky; top:88px; }
+@media (max-width:1200px){ .two-col{ grid-template-columns:1fr; } .right{ position:static; } }
+
+/* ================= Panels / Cards ================= */
+.panel,.notebooks-card{
+  background: var(--bs-card-bg);
+  border:1px solid var(--bs-border-color);
+  border-radius:14px;
+  padding:1rem 1.1rem;
+  box-shadow:0 6px 18px rgba(0,0,0,.12);
+  margin-bottom:1.1rem;
+}
+.panel>h2,.notebooks-card>h2{ margin-top:.2rem; padding-left:.6rem; border-left:4px solid var(--acc); }
+
+/* ================= Syllabus tweaks ================= */
+.syllabus { line-height:1.55; }
+.syllabus p { margin-bottom:.35rem; }
+
+/* ================= Listing: full-width filter + 2-col grid ================= */
+.notebooks-card .listing-toolbar,.notebooks-card .listing-actions{ display:block !important; width:100% !important; margin-bottom:.6rem !important; }
+.notebooks-card .listing-filter{ width:100% !important; margin:0 !important; }
+.notebooks-card .listing-filter input.form-control{
+  width:100% !important; max-width:100% !important; border-radius:6px; padding:.45rem .75rem;
+  background-color: var(--bs-body-bg) !important; color: var(--bs-body-color) !important; border-color: var(--bs-border-color) !important;
+}
+.notebooks-card .listing-filter .input-group-text{ display:none !important; }
+.notebooks-card .quarto-grid{ display:grid !important; grid-template-columns:repeat(2,minmax(250px,1fr)) !important; gap:.9rem !important; }
+
+/* Tag pills on cards; hide sidebar list */
+.quarto-listing-sidebar, .listing-sidebar, .quarto-categories { display:none !important; }
+.card .listing-categories { margin-top:.35rem; }
+.card .listing-category{
+  display:inline-block; background:var(--acc); color:#111 !important;
+  font-size:.7rem; font-weight:700; padding:.18rem .5rem; border-radius:999px; margin-right:.25rem; text-transform:uppercase; letter-spacing:.3px;
+}
+
+/* Hover polish */
+.quarto-grid>.g-col>.card{ transition:transform .15s, box-shadow .15s; }
+.quarto-grid>.g-col>.card:hover{ transform:translateY(-2px); box-shadow:0 8px 24px rgba(0,0,0,.18); }
+
+/* Dark-mode contrast bump */
+html.quarto-dark .panel, html.quarto-dark .notebooks-card,
+body.quarto-dark .panel, body.quarto-dark .notebooks-card{
+  background: rgba(255,255,255,.05) !important; border-color: rgba(255,255,255,.12) !important;
+}
+
+/* Title size tweak */
+#quarto-document-content h1:first-of-type{ font-size:2rem; font-weight:700; margin-bottom:1rem; }
+
+/* Footer */
+.site-divider{ margin-top:3rem; opacity:.25; }
+.site-footer{ text-align:center; font-size:.9rem; opacity:.6; }
+
+/* Smooth anchors */
+html{ scroll-behavior:smooth; }
+</style>
