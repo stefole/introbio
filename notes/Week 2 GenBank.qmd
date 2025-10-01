@@ -3,7 +3,7 @@ title: "Week 2: GenBank"
 date: 2025-09-09
 description: "GenBank"
 categories: ["GenBank"]
-image: "./images/week2.png"
+image: "./images/Week2.png"
 page-layout: full
 toc: false
 ---

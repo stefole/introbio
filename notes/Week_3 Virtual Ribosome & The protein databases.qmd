@@ -3,7 +3,7 @@ title: "Week 3: Virtual Ribosome & Protein databases"
 date: 2025-09-16
 description: "Protein Databases & Virtual Ribosome"
 categories: ["UniProt", "Virtual Ribosome"]
-image: "./images/week3.png"
+image: "./images/Week3.png"
 page-layout: full
 toc: false
 ---
